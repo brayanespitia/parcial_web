@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+
+
+<head>
+    <meta charset="utf-8">
+    <title>proyecto en javascript</title>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+    <!-- scripts-->
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+
+    <!-- jquery ui-->
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css" />
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.structure.min.css" />
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.theme.min.css" />
+    <script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+
+
+
+</head>
+<!--  estilos css-->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+
+<body>
+
+
+    <section id="global">
+
+        <!-- cabecera-->
+        <header>
+            <div id="logo">
+                <h1> ObsequiArte </h1>
+            </div>
+
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li> <a href="index.html"> inicio</a></li>
+
+
+                    <li> <a href="contac.html"> contacto</a></li>
+                    <li><a href="about.html" id="selh3"> Quienes somos</a></li>
+                    <li> <a href="registro.html" id="selh3"> registro </a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- contenido-->
+        <section id="content"></section>
+        <div id="box">
+
+            <!-- formulario-->
+            <h2>contacto</h2>
+
+
+            <form action="" method="POST" id="form_contact">
+                <label for="name">nombre</label>
+                <input type="text" data-validation="alphanumeric" name="name">
+
+                <label for="email">email</label>
+                <input type="text" data-validation="email" name="email">
+                <label for="Mensaje"> Mensaje</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="enviar">
+
+            </form>
+
+
+        </div>
+        <aside id="sidebar">
+
+
+
+        </aside>
+        <div class="clearfix"></div>
+    </section>
+
+    <footer>
+        todos los derechos reservados
+
+
+        <a href="#" class="subir"> ir arriba</a>
+    </footer>
+</body>
+
+</html>
