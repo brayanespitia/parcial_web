@@ -13,15 +13,21 @@
 
 
     <!-- scripts-->
-    <script type="text/javascript" src="js/main.js"></script>
 
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 </head>
 <!--  estilos css-->
 <link rel="stylesheet" type="text/css" href="css/styles.css">
-<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
--->
+
 
 <body>
 
@@ -64,21 +70,95 @@
 
         <!-- contenido-->
         <section id="content"></section>
-        <div class="container">
+        <div class="container1">
 
             <h2>Listado de obsequios</h2>
             <br>
             <hr> <br>
             <ul>
-                <li class="regalo"> <img class="image" src="./img/desayuno1.jpg" alt=""> prueba 1</li>
-                <li class="regalo"> <img class="image" src="./img/desayuno2.jpg" alt=""> prueba 2</li>
-                <li class="regalo"> <img class="image" src="./img/desayuno3.jpg" alt=""> prueba 1</li>
-                <li class="regalo"> <img class="image" src="./img/desayuno4.jpg" alt=""> prueba 1</li>
+                <li class="regalo"> <img class="image1" src="./img/desayuno1.jpg" alt=""> REGALO 1
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                        ver mas
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Desayuno sorpresa</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p> desayuno sorpresa con chocolates y galletas
+                                        precio 50.000
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">volver</button>
+                                    <button type="button" class="btn btn-primary">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="regalo"> <img class="image1" src="./img/desayuno2.jpg" alt=""> prueba 2</li>
+                <li class="regalo"> <img class="image1" src="./img/desayuno3.jpg" alt=""> prueba 1</li>
+                <li class="regalo"> <img class="image1" src="./img/desayuno4.jpg" alt=""> prueba 1</li>
             </ul>
         </div>
 
         <div class="clearfix"></div>
+
+
+        <div>
+            <h2 class="my-4 text-center">Como Comprar?</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-4 p-4">
+                <img src="https://static.vecteezy.com/system/resources/previews/000/491/214/non_2x/gift-icon-design-vector.jpg"
+                    alt="" class="img-fluid ">
+                <p class="text-center">1. Solicitas el regalo que quieras obsequiar</p>
+            </div>
+            <div class="col-4 p-4">
+                <img src="https://st4.depositphotos.com/27867620/30668/v/1600/depositphotos_306682220-stock-illustration-money-web-icon-simple-illustration.jpg"
+                    alt="" class="img-fluid ">
+                <p class="text-center">2. Defines tu forma de pago</p>
+            </div>
+            <div class="col-4 p-4">
+                <img src="https://i0.pngocean.com/files/499/80/34/computer-icons-freight-transport-delivery-others.jpg"
+                    alt="" class="img-fluid">
+                <p class="text-center">3. Nosotros lo entregamos a la persona que desees sorprender</p>
+            </div>
+        </div>
+
+        <h2>Pauquetes especiales a tu medida</h2>
+        <div class="row justify-content-center">
+
+            <div class="col-lg-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione maxime nobis commodi amet deserunt
+                    suscipit vel, eaque accusantium impedit nostrum, minus sed quis, consectetur distinctio enim dolorum
+                    tempore obcaecati id!</p>
+            </div>
+            <div class="col-3">
+                <img src="https://static.vecteezy.com/system/resources/previews/000/491/214/non_2x/gift-icon-design-vector.jpg"
+                    alt="" class="img-fluid">
+                <p class="text-center">Empresarial</p>
+            </div>
+            <div class="col-3">
+                <img src="https://static.vecteezy.com/system/resources/previews/000/491/214/non_2x/gift-icon-design-vector.jpg"
+                    alt="" class="img-fluid">
+                <p class="text-center">Unico</p>
+            </div>
+        </div>
     </section>
+
 
     <footer>
         todos los derechos reservados
